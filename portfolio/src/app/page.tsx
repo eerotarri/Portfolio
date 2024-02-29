@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Home() {
@@ -6,8 +7,9 @@ export default function Home() {
       <div>
         <h1 className="text-6xl font-bold">Hello, World!</h1>
         <p className="text-2xl font-light">
-          Welcome to my portfolio. I'm a web developer.
+          Welcome to my portfolio. I&rsquo;m a web developer.
         </p>
+        <Link href="/contact">Contact</Link>
       </div>
     </main>
   );
